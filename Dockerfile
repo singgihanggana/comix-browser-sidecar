@@ -12,7 +12,6 @@ ENV COMIX_SIDECAR_HOST=0.0.0.0 \
     PYTHONUNBUFFERED=1
 
 COPY app/comix_browser_sidecar.py /app/comix_browser_sidecar.py
-RUN chmod 755 /app/comix_browser_sidecar.py
 
 EXPOSE 8193
 
